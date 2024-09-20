@@ -10,6 +10,7 @@
     "test": "bun test"
   },
   "devDependencies": {
+    "@elysiajs/swagger": "^1.1.1",
     "@types/bun": "latest",
     "elysia": "^1.1.13"
   },
