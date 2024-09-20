@@ -1,0 +1,19 @@
+{
+  "name": "elysia-kawaii",
+  "module": "app.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun --watch src/app.ts",
+    "build": "bun build src/app.ts --target bun --outdir ./dist",
+    "start": "NODE_ENV=production bun dist/app.js",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "elysia": "^1.1.13"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
